@@ -1,0 +1,28 @@
+// setting a variable called myAge that can NOT be change
+const myAge = 24;
+console.log(myAge);
+// This is a variable that will change so we'll se it with "let"
+let earlyYears = 2;
+console.log(earlyYears);
+earlyYears *= 10.5;
+console.log(earlyYears);
+let laterYears = myAge - 2;
+console.log(laterYears);
+ laterYears *=4;
+console.log(earlyYears);
+console.log(laterYears);
+//to figure out my dog in age years, i create a variable with that name then multiply "early years"and "later years" together
+let myAgeInDogYears = earlyYears + laterYears;
+//Quick check of my math to see what value my age in dog years is
+console.log(myAgeInDogYears);
+// Here's my name in a string and using 'lowerCase();' 
+let MyName ="Josselyn".toLowerCase();
+// Results of my code 
+console.log(`My Name is ${MyName}. I am ${myAge} in human years which is ${myAgeInDogYears} in dog years.`);
+
+
+
+
+
+
+
